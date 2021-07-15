@@ -5,7 +5,7 @@ function BoardGame(amountCards) { // mostra o numero de cartas na tela
     const $htmlCardGame = CardGame()
     const $htmlContent = $htmlCardGame.repeat(amountCards)
 
-    return `
+    return /* html */ `
         <section class="board-game">
             ${$htmlContent}
         </section>
