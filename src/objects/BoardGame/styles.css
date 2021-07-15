@@ -2,4 +2,5 @@
     display: flex;
     flex-wrap: wrap;
     gap: 20px; /* espaço entre os elementos (as cartas) */
+    justify-content: space-around;
 }
