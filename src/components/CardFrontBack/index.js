@@ -7,11 +7,11 @@ function CardFrontBack() {
     return /*html*/ `
         <article class="card-front-back">
             ${CardGame()}
-            ${CardGame()}
+            ${CardGame("javascript", "Logo do Javascript")} 
         </article>
-    
     `
-
 }
+/* passagem de parâmetro como argumento
+para dentro da função do Objeto CardGame */
 
 export default CardFrontBack
