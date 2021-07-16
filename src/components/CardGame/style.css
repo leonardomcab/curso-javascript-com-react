@@ -1,11 +1,13 @@
 .card-game {
+    box-sizing: border-box; /* padding aqui não irá crescer */
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 130px;
-    height: 160px;
+    width: var(--width);
+    height: var(--height);
     background-color: #051932;
     border: 4px solid var(--color-floral-white);
     padding-left: 0%;
     margin: 1%;
+    
 }

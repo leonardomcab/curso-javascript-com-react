@@ -3,4 +3,5 @@
     flex-wrap: wrap;
     gap: 20px; /* espaço entre os elementos (as cartas) */
     justify-content: space-around;
+    perspective: 400px; /* o quão perto/longe o usuário está da tela */
 }

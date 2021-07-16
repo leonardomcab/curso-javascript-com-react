@@ -7,4 +7,5 @@ function CardGame(icon = 'alura-pixel', alt = 'Logo da Alura') {
         </article>
     `
 }
+/* icon = 'alura-pixel' garante q sempre terá o ícone como default */
 export default CardGame
